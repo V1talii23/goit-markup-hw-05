@@ -183,8 +183,8 @@ h3 {
 
 .footer-social-link:hover,
 .footer-social-link:focus,
-.form-btn:hover,
-.form-btn:focus {
+.footer-form-btn:hover,
+.footer-form-btn:focus {
   background-color: #31d0aa;
 }
 
@@ -496,7 +496,7 @@ h3 {
   color: #fff;
 }
 
-.form-btn {
+.footer-form-btn {
   color: #fff;
   background-color: #4d5ae5;
   font-weight: 500;
