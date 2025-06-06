@@ -637,13 +637,12 @@ h3 {
 .form-input {
   height: 40px;
   padding-left: 38px;
-  border-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-input:focus,
 .form-comment:focus,
 .modal-style:focus {
-  border-color: 1px solid #4d5ae5;
+  border: 1px solid #4d5ae5;
 }
 
 .form-input:focus + .form-icon {
