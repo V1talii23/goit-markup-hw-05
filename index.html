@@ -542,7 +542,7 @@
         <div class="footer-subscribe-container">
           <p class="footer-subscribe-text">Subscribe</p>
           <form class="footer-form">
-            <label>
+            <label class="footer-label">
               <input
                 class="footer-input"
                 type="email"
@@ -614,29 +614,31 @@
               </svg>
             </div>
           </div>
-          <label class="label" for="comment">Comment</label>
-          <textarea
-            class="form-comment modal-style"
-            name="comment"
-            id="comment"
-            placeholder="Text input"
-          ></textarea>
-          <div class="checkbox-wrapper">
-            <input
-              class="modal-checkbox visually-hidden"
-              type="checkbox"
-              id="policy"
-              value="on"
-            />
-            <label class="checkbox-text" for="policy">
-              <span class="checkbox-box">
-                <svg class="icon-check" width="10" height="8">
-                  <use href="./images/icons.svg#icon-check"></use>
-                </svg>
-              </span>
-              I accept the terms and conditions of the
-              <a class="policy-link">Privacy Policy</a>
-            </label>
+          <div class="textarea-checkbox-wrapper">
+            <label class="label" for="comment">Comment</label>
+            <textarea
+              class="form-comment modal-style"
+              name="comment"
+              id="comment"
+              placeholder="Text input"
+            ></textarea>
+            <div class="checkbox-wrapper">
+              <input
+                class="modal-checkbox visually-hidden"
+                type="checkbox"
+                id="policy"
+                value="on"
+              />
+              <label class="checkbox-text" for="policy">
+                <span class="checkbox-box">
+                  <svg class="icon-check" width="10" height="8">
+                    <use href="./images/icons.svg#icon-check"></use>
+                  </svg>
+                </span>
+                I accept the terms and conditions of the
+                <a class="policy-link">Privacy Policy</a>
+              </label>
+            </div>
           </div>
           <button class="form-btn button" type="submit">Send</button>
         </form>
