@@ -684,7 +684,7 @@ h3 {
 
 .modal-checkbox:checked + .checkbox-text .checkbox-box {
   background-color: #404bbf;
-  border: 1px solid #404bbf;
+  border: none;
   fill: #f4f4fd;
 }
 
